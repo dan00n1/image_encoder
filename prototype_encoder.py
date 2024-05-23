@@ -95,9 +95,9 @@ def calculate_mse(image1, image2):
     return mse
 
 # Example usage:
-input_image_path = "input_image.jpg"
+input_image_path = "input_image.jpeg"
 output_compressed_text_file = "compressed_image.txt"
-output_decompressed_image_path = "decompressed_image.jpg"
+output_decompressed_image_path = "decompressed_image.jpeg"
 
 # Extract image format from the input image path
 input_image_format = input_image_path.split('.')[-1]
